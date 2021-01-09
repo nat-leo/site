@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This personal website is deployed on Google Cloud [Here](https://nate-website-gjlqqgnpya-uw.a.run.app/).
 
 ## Available Scripts
 
