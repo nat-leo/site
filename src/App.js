@@ -1,8 +1,8 @@
 import React from 'react';
-import landscape from './images/landscape1.jpg';
-import bicycle from './images/bicycle.jpg';
-import fields from './images/fields.jpg';
-import flowers from './images/flowers.jpg';
+import landscape from './assets/landscape1.jpg';
+import bicycle from './assets/bicycle.jpg';
+import fields from './assets/fields.jpg';
+import flowers from './assets/flowers.jpg';
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 
