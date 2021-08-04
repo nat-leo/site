@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
+import {Router, Link} from "@reach/router"
+
 import { MenuItems } from "./MenuItems";
 import "./Navbar.css"
+import Home from "../pages/Home.js"
+import Projects from "../pages/Projects.js"
 
 class Navbar extends Component {
   render() {
     return(
-      <nav className="NavbarItems">
-        <h1 className="navbar-logo">Nathaniel Liu</h1>
-          <ul className="nav-menu">
-            {MenuItems.map((item, index) => {
-              return (
-                <li key={index}>
-                  <a className={item.cName} href={item.url}>
-                    {item.title}
-                      </a>
-                </li>
-              )
-            })}
-          </ul>
-      </nav>
+      <div>
+        <nav className="NavbarItems">
+          <h1 className="navbar-logo">Nathaniel Liu</h1>
+          <Link to="/">Home</Link>
+          <Link to="/resume">Resume</Link>
+          <Link to="/projects">Projects</Link>
+        </nav>
+
+        <Router>
+          <Home path="/"/>
+          <Projects path="/projects"/>
+        </Router>
+      </div>
     )
   }
 }
