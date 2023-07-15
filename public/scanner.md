@@ -1,4 +1,7 @@
 # UNDER CONSTRUCTION
+
+### Friday July 14, 2023
+
 # Compilers and Scanners
 
 It's time to talk scanner implementations. Scanners are really boring and I'd suggest youd skip this page. Once I'm done with this article there'll be code hanging out for you to use.
